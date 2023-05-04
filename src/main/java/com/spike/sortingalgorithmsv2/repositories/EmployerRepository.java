@@ -27,5 +27,9 @@ public interface EmployerRepository extends CrudRepository<Employer,Integer> {
 //    }
 
 
+//    for Employer employer : employerRepository.getNames(){
+//        writer.write(employer.getFirstName()+"\n")
+//    }
+
 }
 
