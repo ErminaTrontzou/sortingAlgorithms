@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SalariesOfProfessions {
-     private Integer salary;
-     private String title;
+public class NameCount {
+    private String name;
+    private Integer count;
 }
