@@ -1,13 +1,8 @@
 package com.spike.sortingalgorithmsv2.entities;
 
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 import javax.persistence.*;
 import java.io.Serializable;
