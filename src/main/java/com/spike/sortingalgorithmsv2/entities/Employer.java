@@ -38,13 +38,13 @@ public class Employer implements Serializable {
     public Employer() {
 
     }
-    public Employer(int id, String firstName, String lastName, String email, int salary, Profession profession) {
+    public Employer(int id, String firstName, String lastName, String email, int salary) {
         this.id=id;
         this.firstName=firstName;
         this.lastName=lastName;
         this.email=email;
         this.salary=salary;
-        this.profession = profession;
+
     }
 
 
